@@ -1,0 +1,80 @@
+.sobre{
+    height: auto;
+}
+
+.sobre__container{
+    padding: 6em 3em;
+}
+
+.container__texto{
+    width: 100%;
+}
+
+.sobre__titulo{
+    color: #260b44;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 2em;
+    text-shadow: 0 0 25px #333333   ;
+}
+
+.sobre__titulo::after{
+    content: '';
+    background-color: #260b44;
+    display: block;
+    height: 3px;
+    margin-top: .5em;
+    width: 100%;
+}
+
+.container__texto h3{
+    color: #333333;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+}
+
+h3 span{
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-right: .2em;
+}
+
+.container__texto h3::after{
+    content: '';
+    background-color: #333333;
+    display: block;
+    height: 2px;
+    margin-top: .5em;
+    width: 50%;
+}
+
+.icone__sobre{
+    color: #333333;
+    font-size: 1.2em;
+    margin: 0 .5em   ;
+}
+
+.sobre__informacoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre__imagem{
+    align-self: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #000000;
+    height: 150px;
+    justify-content: center;
+    margin-top: 2em;
+    width: 150px;
+}
+
+.sobre__texto{
+    color: #f3f3f3c2;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+    text-align: justify;
+}

@@ -1,0 +1,97 @@
+.contato{
+    background-color: #1a1919;
+    height: auto;
+}
+
+.contato__titulo{
+    color: #fdfdfd;
+    font-family: 'Philosopher';
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 2em;
+    text-shadow: 0 0 12px #333333;
+}
+
+.contato__titulo::after{
+    content: '';
+    background-color: #fdfdfd;
+    display: block;
+    height: 3px;
+    margin-top: .5em;
+    width: 100%;
+}
+
+input, textarea{
+    outline: 0;
+    display: block;
+    margin: 2em auto;
+}
+
+.formulario__nome,
+.formulario__email,
+.formulario__telefone,
+.formulario__mensagem{
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid #333333;
+    color: #fdfdfd;
+    font-family: 'Philosopher', sans-serif;
+    height: 10px;
+    padding: 2em 0;
+    transition-property: border-color;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    width: 55%;
+}
+
+.formulario__mensagem{
+    height: 75px;
+}
+
+.formulario__nome:focus,
+.formulario__email:focus,
+.formulario__telefone:focus,
+.formulario__mensagem:focus{
+    border-bottom: 1px solid #330568;
+}
+
+.botaoFormulario{
+    background-color: #330568;
+    border: 2px solid #260b44;
+    border-radius: 2%;
+    color: #fdfdfd;
+    cursor: pointer;
+    font-family: 'Philosopher', sans-serif;
+    font-size: .9em;
+    height: 40px;
+    transition: .5s all;
+    width: 30%;
+}
+
+.botaoFormulario:hover{
+    background-color: #260b44;
+}
+
+.contato__grid{
+    align-content: flex-end;
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    margin-top: 2em;   
+}
+
+.contato__grid a{
+    color: #fdfdfd;
+    margin-left: 1em;
+    transition: .5s all;
+}
+
+.contato__grid a:nth-child(1){
+    margin-left: 0;
+}
+
+.contato__grid a:hover{
+    color: #330568;
+    text-shadow: 0 0 5px #330568;
+    transform: scale(1.2);
+}

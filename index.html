@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+		
+	<title>Murilo Rodrigues</title>
+		
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/cabecalho.css">  
+	<link rel="stylesheet" href="css/principal.css">  
+	<link rel="stylesheet" href="css/sobre.css">  
+	<link rel="stylesheet" href="css/portifolio.css">
+	<link rel="stylesheet" href="css/contato.css">
+	<link rel="stylesheet" href="css/responsivo.css">
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Philosopher&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/7f0beae842.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	
+	<header class="cabecalho">
+		<nav class="cabecalho__menu">
+			<ul class="cabecalho__lista">
+				<li class="cabecalho__itens"><a href="#sobre" class="cabecalho__link"><i class="fas fa-coffee icone"></i>Sobre</a></li>
+				<li class="cabecalho__itens"><a href="#portfólio" class="cabecalho__link"><i class="fas fa-book icone"></i>Portfólio</a></li>
+				<li class="cabecalho__itens"><a href="#contato" class="cabecalho__link"><i class="fas fa-mobile icone"></i>Contato</a></li>
+			</ul>
+		</nav>
+		
+	</header>
+
+	<main class="conteudo">
+	
+		<section class="principal">
+		
+			<div class="principal__container">	
+				<h1 class="helloWorld"> <span>&lt &gt</span> Hello, World! <span>&lt/&gt</sapn> </h1>
+				<h2 class="site-title"> Eu sou Murilo Rodrigues</h2>
+				<h3 class="site-subtitle">Graduando em Engenharia Física e Web Developer</h3>
+			
+				<a class="principal__botao" href="#contato">FALE COMIGO!<i class="fas fa-angle-down"></i></a>
+			</div>
+		</section>
+
+		<section class="sobre" id="sobre">
+			
+			<div class="sobre__container">
+				
+				<h2 class="sobre__titulo">Sobre</h2>
+				
+				<div class="container__texto">
+					
+					<div class="sobre__informacoes">
+						<div class="informacoes__texto">
+							<h3><span>Nome:</span> Murilo Rodrigues Vieira Dos Santos<i class="fas fa-laptop-code icone__sobre"></i><span>+</span><i class="fas fa-coffee icone__sobre"></i><span>=</span><i class="fas fa-code icone__sobre"></i></h3>
+
+							<h3><span>Data de Nascimento:</span> 27/12/2000</h3>
+
+							<h3><span>Email:</span> murilo2759@gmail.com</h3>
+						</div>
+						
+						<img src="./img/Murilo.jpg" alt="Murilo Rodrigues" class="sobre__imagem">
+					</div>
+												
+					<p class="sobre__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae ipsum in quas eligendi officiis repudiandae,
+					similique, accusantium quos fuga dolorem, magnam doloribus tempore? Inventore at reprehenderit dolore fugiat!
+					Atque, temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus a, ad ut eum voluptatibus, sit optio magnam omnis unde dicta, animi perferendis quos? Laudantium incidunt, debitis quis tenetur esse aliquam.</p>
+								
+				</div>		
+				
+			</div>
+
+			
+		</section>
+	
+		<!-- <section class="house">
+			<li><a href="#home"><i class="fas fa-home"></i></a>
+		</section> -->
+	
+		<section class="portifolio" id="portfólio">
+	
+			<div class="portifolio__container">
+				<h2 class="portifolio__titulo">Portfólio</h2>
+	
+				<div class="portifolio__grid">
+					<ul class="portifolio__lista">
+						<li class="portifolio__itens">
+							<h2 class="titulo__itens">HTML5</h2>
+							<img src="./img/HTML5.png" alt="" class="imagem__itens">
+							<p>Desenvolvimento Web em HTML5</p>							
+						</li>
+						<li class="portifolio__itens">
+							<h2 class="titulo__itens">CSS3</h2>
+							<img src="./img/CSS3.png" alt="" class="imagem__itens">
+							<p>Estilização em CSS3</p>							
+						</li>
+						<li class="portifolio__itens">
+							<h2 class="titulo__itens">JavaScript</h2>
+							<img src="./img/JS.png" alt="" class="imagem__itens">
+							<p>Dinamismo usando a linguagem da Web</p>							
+						</li>
+						<li class="portifolio__itens">
+							<h2 class="titulo__itens">Sass</h2>
+							<img src="./img/sass.png" alt="" class="imagem__itens">
+							<p>Facilitações em Sass - CSS com super-poderes</p>						
+						</li>
+						<li class="portifolio__itens">
+							<h2 class="titulo__itens">Bootstrap</h2>
+							<img src="./img/boot.png" alt="" class="imagem__itens">
+							<p>Desenvolvimento com maior Framework da Web</p>							
+						</li>
+						<li class="portifolio__itens">
+							<h2 class="titulo__itens">PHP</h2>
+							<img src="./img/php.png" alt="" class="imagem__itens">
+							<p>Desenvolvimento Back-end em PHP</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</section>
+		
+		<section class="contato" id="contato">
+	
+			<h2 class="contato__titulo">Contato</h2>
+	
+			<form action="" method="" class="contato__formulario">
+				<input type="text" id="nome" placeholder="Nome" class="formulario__nome" required>
+
+				<input type="email" id="email" placeholder="Email" class="formulario__email" required>
+
+				<input type="tel" id="telefone" placeholder="Telefone" class="formulario__telefone" required>
+
+				<textarea cols="70" rows="10" id="mensagem" placeholder="Mensagem" class="formulario__mensagem" required></textarea>
+
+				<input type="submit" value="Enviar Mensagem!" class="botaoFormulario">
+			</form>
+
+			<div class="contato__grid icons">
+				<a target="_blank" href="">
+					<i class="fab fa-github"></i>
+				</a>
+				
+				<a target="_blank" href="">
+					<i class="fab fa-facebook"></i>
+				</a>
+				
+				<a target="_blank" href="">
+					<i class="fab fa-instagram"></i>
+				</a>
+				
+				<a href="">
+					<i class="fas fa-envelope"></i>
+				</a>
+			</div>
+		</section>
+	</main>
+
+	<footer><p>&copy;2020 Todos os direitos reservados.</p></footer>
+
+	<script src="js/menu.js"></script>
+	
+</body>
+
+</html>

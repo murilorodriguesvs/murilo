@@ -1,0 +1,95 @@
+@media screen and (min-width: 320px){
+    html{
+        font-size: 10px;
+    }
+
+    .principal{
+        padding: 12em 0;
+    }
+
+    .cabecalho__link{
+        font-size: 1.5em;
+    }
+
+    .portifolio__container, .sobre__contaiber, .contato{
+        padding: 5em 1em;
+    }
+
+    .portifolio__itens p{
+        font-size: .9em;
+    }
+
+    .titulo__itens{
+        font-size: 1.5em;
+    }
+    
+    .imagem__itens{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    html{
+        font-size: 14px;
+    }
+
+    .principal{
+        padding: 2em;
+    }
+
+
+    .cabecalho__link{
+        font-size: 1.25em;
+    }
+
+    .imagem__itens{
+        height: 80px;
+        width: 80px;
+    }
+
+    .portifolio__itens p{
+        font-size: 1.1em;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    html{
+        font-size: 15px;
+    }
+
+    .imagem__itens{
+        height: 90px;
+        width: 90px;
+    }
+}
+
+@media screen and (min-width: 920px){
+    html{
+        font-size: 16px;
+    }
+
+    .portifolio__container, .sobre__contaiber, .contato{
+        padding: 5em 2em;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .portifolio__container, .sobre__contaiber{
+        padding: 5em 3em;
+    }
+
+    .titulo__itens{
+        font-size: 2em;
+    }
+
+    .contato{
+        padding: 5em 3em 3em 3em;
+    }
+    
+    .imagem__itens{
+        height: 100px;
+        width: 100px;
+    }
+}

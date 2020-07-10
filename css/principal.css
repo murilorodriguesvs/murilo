@@ -1,0 +1,60 @@
+.principal{
+    height: auto;
+}
+
+.principal__container{
+    height: 60%;
+    text-align: center;
+    width: 100%;
+}
+
+.helloWorld{
+    color: #260b44;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    padding-top: 3em;
+    padding-bottom: .8em;
+}
+
+.helloWorld span{
+    color: #45086e93;
+    font-size: 1.2em;
+}
+
+.site-title{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-bottom: .2em;
+}
+
+.site-subtitle{
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.5em;
+    margin-bottom: 4em;
+}
+
+.principal__botao{
+    background: inherit;
+    border: 3px solid #333333;
+    color: #fdfdfd;
+    cursor: pointer;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    padding: 17px 40px;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+.principal__botao i{
+    margin: .2em;
+}
+
+.principal__botao:active,
+.principal__botao:hover{
+    color:#260b44;
+    font-size: 18px;
+}
