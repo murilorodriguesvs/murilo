@@ -1,0 +1,47 @@
+.conteudo{
+    background: linear-gradient(#c6a5ebe7 25%, #260b44 75%);
+}
+
+.cabecalho__menu{
+    background-color: #260b44;
+    display: flex;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.cabecalho__lista{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cabecalho__link{
+    color: #fdfdfd;
+    font-family: 'philosopher', sans-serif;
+    text-decoration: none;
+}
+
+.cabecalho__link:active,
+.cabecalho__link:hover{
+    border-bottom: 3px solid #fdfdfd;
+    text-shadow: 0 0 45px #fdfdfd;
+}
+
+.icone{
+    font-size: 1.25em;
+    margin-right: .75em;
+}
+
+footer{
+    align-items: center;
+    background-color: #141414;
+    color: #fdfdfd;
+    display: flex;
+    font-family: 'Philosopher', sans-serif;
+    font-size: .9em;
+    height: 50px;
+    justify-content: center;
+}

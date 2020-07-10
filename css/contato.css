@@ -90,6 +90,8 @@ input, textarea{
     margin-left: 0;
 }
 
+.contato__grid a:active,
+.contato__grid a:focus,
 .contato__grid a:hover{
     color: #330568;
     text-shadow: 0 0 5px #330568;

@@ -33,6 +33,7 @@
     font-family: 'Philosopher', sans-serif;
     font-size: 1.1em;
     margin-bottom: 1.5em;
+    margin-left: 1em;
 }
 
 h3 span{
@@ -47,8 +48,8 @@ h3 span{
     display: block;
     height: 2px;
     margin-top: .5em;
-    width: 50%;
-}
+    width: 60%;
+} 
 
 .icone__sobre{
     color: #333333;
