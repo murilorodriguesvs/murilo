@@ -124,14 +124,15 @@
 	
 			<h2 class="contato__titulo">Contato</h2>
 	
-			<form action="" method="" class="contato__formulario">
-				<input type="text" id="nome" placeholder="Nome" class="formulario__nome" required>
+			<form action="./php/formulario.php" method="POST" class="contato__formulario">
+				
+				<input type="text" name="nome" placeholder="Nome" class="formulario__nome" required>
 
-				<input type="email" id="email" placeholder="Email" class="formulario__email" required>
+				<input type="email" name="email" placeholder="Email" class="formulario__email" required>
 
-				<input type="tel" id="telefone" placeholder="Telefone" class="formulario__telefone" required>
+				<input type="tel" name="telefone" placeholder="Telefone" class="formulario__telefone" required>
 
-				<textarea cols="70" rows="10" id="mensagem" placeholder="Mensagem" class="formulario__mensagem" required></textarea>
+				<textarea cols="70" rows="10" name="mensagem" placeholder="Mensagem" class="formulario__mensagem" required></textarea>
 
 				<input type="submit" value="Enviar Mensagem!" class="botaoFormulario">
 			</form>
