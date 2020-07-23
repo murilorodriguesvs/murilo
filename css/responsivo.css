@@ -75,8 +75,9 @@
     }
 
     .principal{
-        padding: 3em;
-        padding-bottom: 4.2em;
+        margin: 3em;
+        margin-bottom: 4.2em;
+        padding: 0;
     }
 
     .habilidades__container, .sobre__contaiber, .contato{
