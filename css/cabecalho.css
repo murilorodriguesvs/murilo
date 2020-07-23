@@ -26,12 +26,11 @@
 
 .cabecalho__link:active,
 .cabecalho__link:hover{
-    border-bottom: 3px solid #fdfdfd;
     text-shadow: 0 0 45px #fdfdfd;
 }
 
 .icone{
-    font-size: 1.25em;
+    font-size: 1.1em;
     margin-right: .75em;
 }
 
