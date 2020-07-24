@@ -5,7 +5,7 @@
 .cabecalho__menu{
     background-color: #260b44;
     display: flex;
-    height: 50px;
+    height: 60px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -26,12 +26,13 @@
 
 .cabecalho__link:active,
 .cabecalho__link:hover{
-    text-shadow: 0 0 45px #fdfdfd;
+    border-bottom: 2px solid #fdfdfd;
 }
 
-.icone{
-    font-size: 1.1em;
-    margin-right: .75em;
+.home{
+    color: rgb(238, 238, 238);
+    font-size: 1.75em;
+    font-weight: bold;
 }
 
 footer{
