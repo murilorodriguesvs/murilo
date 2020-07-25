@@ -1,0 +1,58 @@
+@media not all and (max-width:600px){
+    .menu-abrir,
+    .menu-fechar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .logo{
+        font-size: 3em;
+        left: 15%;
+        position: relative;
+        width: 80%;
+    }
+    
+    .cabecalho__menu{
+        background-color: #333333;
+        border-radius: 5px;
+        height: 50%;
+        width: 80%;
+        max-width: 320px;
+        position: fixed;
+        z-index: 1;
+        top: 0px;
+        left: -90%;
+    }
+
+    .cabecalho__lista{
+        align-items: flex-start;
+        font-size: 1.25em;
+        justify-content: center;
+        flex-direction: column;
+        height: 85%;
+        margin-left: 40px;
+    }
+
+    .cabecalho__itens{
+        margin-bottom: 2em;
+    }
+
+    .menu-ativo .cabecalho__menu{
+        left: 0;
+    }
+
+    .sanduiche, .fecha-menu{
+        background-color: transparent;
+        border: none;
+        color: #fdfdfd;
+        font-size: 3em;
+        margin-left: 1em;
+    }
+
+    .fecha-menu{
+        margin-top: .5em;
+    }
+
+}

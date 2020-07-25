@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/sobre.css">  
 	<link rel="stylesheet" href="css/habilidades.css">
 	<link rel="stylesheet" href="css/contato.css">
+	<link rel="stylesheet" href="css/menu-sanduiche.css">
 	<link rel="stylesheet" href="css/responsivo.css">
 
 
@@ -22,19 +23,25 @@
 
 <body>
 	
-	<header class="cabecalho">
-		<nav class="cabecalho__menu">
-			<ul class="cabecalho__lista">
+	<div class="container">
+		<button class="menu-abrir sanduiche"><i class="fas fa-bars icone"></i></button>
+		<h1 class="logo"><i class="fas fa-coffee icone"></i>  +  <i class="fas fa-laptop-code icone"></i>  =  <i class="fas fa-code icone"></i>
+		</h1>
 
-				<li class="cabecalho__itens home"><i class="fas fa-coffee icone"></i>  +  <i class="fas fa-laptop-code icone"></i>  =  <i class="fas fa-code icone"></i></li>
-				<li class="cabecalho__itens"><a href="#sobre" class="cabecalho__link">Sobre</a></li>
-				<li class="cabecalho__itens"><a href="#habilidades" class="cabecalho__link">Habilidades</a></li>
-				<li class="cabecalho__itens"><a href="#" class="cabecalho__link">Portfólio</a></li>
-				<li class="cabecalho__itens"><a href="#contato" class="cabecalho__link">Contato</a></li>
-			</ul>
-		</nav>
-		
-	</header>
+		<header class="cabecalho">
+
+			<nav class="cabecalho__menu">
+				<button class="menu-fechar fecha-menu"><i class="fas fa-times icone"></i></button>
+				<ul class="cabecalho__lista">
+					<li class="cabecalho__itens"><a href="#sobre" class="cabecalho__link">Sobre</a></li>
+					<li class="cabecalho__itens"><a href="#habilidades" class="cabecalho__link">Habilidades</a></li>
+					<li class="cabecalho__itens"><a href="#" class="cabecalho__link">Portfólio</a></li>
+					<li class="cabecalho__itens"><a href="#contato" class="cabecalho__link">Contato</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+	</div>
 
 	<main class="conteudo">
 	
@@ -161,6 +168,8 @@
 	</main>
 
 	<footer><p>&copy;2020 Todos os direitos reservados.</p></footer>
+
+	<script src="js/menu.js"></script>
 	
 </body>
 
