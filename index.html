@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width">
 		
 	<title>Murilo Rodrigues</title>
-		
+	
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/cabecalho.css">  
 	<link rel="stylesheet" href="css/principal.css">  
@@ -25,7 +25,7 @@
 	
 	<div class="container">
 		<button class="menu-abrir sanduiche"><i class="fas fa-bars icone"></i></button>
-		<h1 class="logo"><i class="fas fa-coffee icone"></i>  +  <i class="fas fa-laptop-code icone"></i>  =  <i class="fas fa-code icone"></i>
+		<h1 class="logo"><a href="#principal" class="logo__link"><i class="fas fa-coffee icone"></i>  +  <i class="fas fa-laptop-code icone"></i>  =  <i class="fas fa-code icone"></i></a>
 		</h1>
 
 		<header class="cabecalho">
@@ -33,10 +33,10 @@
 			<nav class="cabecalho__menu">
 				<button class="menu-fechar fecha-menu"><i class="fas fa-times icone"></i></button>
 				<ul class="cabecalho__lista">
-					<li class="cabecalho__itens"><a href="#sobre" class="cabecalho__link">Sobre</a></li>
-					<li class="cabecalho__itens"><a href="#habilidades" class="cabecalho__link">Habilidades</a></li>
-					<li class="cabecalho__itens"><a href="#" class="cabecalho__link">Portfólio</a></li>
-					<li class="cabecalho__itens"><a href="#contato" class="cabecalho__link">Contato</a></li>
+					<li class="cabecalho__itens"><a href="#sobre" class="cabecalho__link" id="fechar">Sobre</a></li>
+					<li class="cabecalho__itens"><a href="#habilidades" class="cabecalho__link" id="fechar1">Habilidades</a></li>
+					<li class="cabecalho__itens"><a href="#" class="cabecalho__link" id="fechar2">Portfólio</a></li>
+					<li class="cabecalho__itens"><a href="#contato" class="cabecalho__link" id="fechar3">Contato</a></li>
 				</ul>
 			</nav>
 			
@@ -45,7 +45,7 @@
 
 	<main class="conteudo">
 	
-		<section class="principal">
+		<section class="principal" id="principal">
 		
 			<div class="principal__container">	
 				<h1 class="helloWorld"> <span>&lt &gt</span> Hello, World! <span>&lt/&gt</sapn> </h1>
@@ -170,7 +170,7 @@
 	<footer><p>&copy;2020 Todos os direitos reservados.</p></footer>
 
 	<script src="js/menu.js"></script>
-	
+		
 </body>
 
 </html>

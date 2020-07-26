@@ -3,8 +3,16 @@
         font-size: 10px;
     }
 
+    .sobre__titulo, .contato__titulo, .habilidade__titulo{
+        margin-top: 2em;
+    }
+
     .principal{
         padding: 13em 0;
+    }
+
+    .logo__link{
+        font-size: .8em;
     }
 
     .cabecalho__link{
@@ -34,8 +42,16 @@
         font-size: 14px;
     }
 
+    .sobre__titulo, .contato__titulo, .habilidade__titulo{
+        margin-top: 1em;
+    }
+
     .principal{
         padding: 5em;
+    }
+
+    .logo__link{
+        font-size: 1em;
     }
 
 
@@ -59,6 +75,14 @@
         font-size: 15px;
     }
 
+    .sobre__titulo, .contato__titulo, .habilidade__titulo{
+        margin-top: 0;
+    }
+
+    .logo__link{
+        font-size: 1.2em;
+    }
+
     .principal{
         padding: 4em;
     }
@@ -72,6 +96,10 @@
 @media screen and (min-width: 920px){
     html{
         font-size: 16px;
+    }
+
+    .logo__link{
+        font-size: 1.5;
     }
 
     .principal{
@@ -88,6 +116,10 @@
 @media screen and (min-width: 1200px){
     .habilidades__container, .sobre__contaiber{
         padding: 5em 3em;
+    }
+
+    .logo__link{
+        font-size: 1.75;
     }
 
     .titulo__itens{

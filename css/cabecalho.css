@@ -36,11 +36,11 @@
     border-bottom: 2px solid #fdfdfd;
 }
 
-.logo{
+.logo__link{
     color: rgb(238, 238, 238);
-    font-size: 1.75em;
     font-weight: bold;
     margin-left: 2em;
+    text-decoration: none;
 }
 
 footer{

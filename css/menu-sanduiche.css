@@ -17,7 +17,7 @@
     .cabecalho__menu{
         background-color: #333333;
         border-radius: 5px;
-        height: 50%;
+        height: 100%;
         width: 80%;
         max-width: 320px;
         position: fixed;
@@ -53,6 +53,17 @@
 
     .fecha-menu{
         margin-top: .5em;
+    }
+
+    .menu-ativo::before{
+        content: "";
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .4);
     }
 
 }
